@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 /// Orders of the items are recorded and checks how much
 /// of each of the products are desired.
 /// </summary>
-namespace CoffeeLovers.Models
+namespace CoffeeeLover.Models
 {
     public class OrderItems
     {

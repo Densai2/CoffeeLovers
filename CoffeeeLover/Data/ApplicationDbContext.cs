@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using CoffeeeLover.Models;
-using CoffeeLovers.Models;
 
 namespace CoffeeeLover.Data
 {
@@ -16,8 +15,8 @@ namespace CoffeeeLover.Data
         public DbSet<CoffeeeLover.Models.Customer> ?Customer { get; set; }
         public DbSet<CoffeeeLover.Models.Customer_Payment_Method> ?Customer_Payment_Method { get; set; }
         public DbSet<CoffeeeLover.Models.Order> ?Order { get; set; }
-        public DbSet<CoffeeLovers.Models.OrderItems> ?OrderItems { get; set; }
-        public DbSet<CoffeeLovers.Models.Products> ?Products { get; set; }
         public DbSet<CoffeeeLover.Models.Supplier> ?Supplier { get; set; }
+        public DbSet<CoffeeeLover.Models.Products> ?Products { get; set; }
+        public DbSet<CoffeeeLover.Models.OrderItems> ?OrderItems { get; set; }
     }
 }

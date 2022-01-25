@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace CoffeeLovers.Models
+namespace CoffeeeLover.Models
 {
     /// <summary>
     /// Creates the base to create a product. This is then going to be
